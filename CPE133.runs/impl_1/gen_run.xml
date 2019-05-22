@@ -1,37 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1555543870">
-  <File Type="ROUTE-TIMING-PB" Name="lab4_timing_summary_routed.pb"/>
-  <File Type="PA-TCL" Name="lab4.tcl"/>
-  <File Type="BITSTR-MSK" Name="lab4.msk"/>
-  <File Type="BG-BIN" Name="lab4.bin"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="lab4_routed_bb.dcp"/>
-  <File Type="BG-BGN" Name="lab4.bgn"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="lab4_postplace_pwropt.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1557961159">
+  <File Type="BITSTR-BMM" Name="cntr_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cntr_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="cntr_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="cntr_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="cntr.tcl"/>
+  <File Type="OPT-TIMING" Name="cntr_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="cntr_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="cntr_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="cntr_reports.tcl"/>
+  <File Type="OPT-DRC" Name="cntr_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cntr.hwdef"/>
+  <File Type="PWROPT-DCP" Name="cntr_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="cntr_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="cntr_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="cntr_placed.dcp"/>
+  <File Type="PLACE-IO" Name="cntr_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cntr_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="cntr_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cntr_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="cntr_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cntr_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cntr_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="cntr.bgn"/>
+  <File Type="PLACE-TIMING" Name="cntr_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cntr_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="cntr.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cntr_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cntr_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="cntr_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="cntr.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="cntr_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cntr_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="cntr_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cntr_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="cntr_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="cntr_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cntr.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="cntr_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="cntr.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cntr_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cntr_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="cntr.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cntr_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="cntr_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="cntr_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cntr_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cntr_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="cntr_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cntr_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="cntr_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cntr_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="cntr_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="cntr_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="cntr_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cntr_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cntr_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cntr_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cntr_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cntr_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cntr_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cntr_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="cntr.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cntr_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="cntr.rbt"/>
+  <File Type="BITSTR-NKY" Name="cntr.nky"/>
+  <File Type="BG-DRC" Name="cntr.drc"/>
+  <File Type="RDI-RDI" Name="cntr.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="lab4_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DCP" Name="lab4_routed.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="lab4_physopt.dcp"/>
-  <File Type="REPORTS-TCL" Name="lab4_reports.tcl"/>
-  <File Type="BITSTR-RBT" Name="lab4.rbt"/>
-  <File Type="OPT-DCP" Name="lab4_opt.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="lab4_routed_error.dcp"/>
-  <File Type="BG-DRC" Name="lab4.drc"/>
-  <File Type="OPT-HWDEF" Name="lab4.hwdef"/>
-  <File Type="BG-BIT" Name="lab4.bit"/>
-  <File Type="PLACE-DCP" Name="lab4_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="lab4_pwropt.dcp"/>
-  <File Type="BITSTR-NKY" Name="lab4.nky"/>
-  <File Type="BITSTR-BMM" Name="lab4_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="lab4.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="lab4.sysdef"/>
-  <File Type="BITSTR-LTX" Name="lab4.ltx"/>
-  <File Type="RDI-RDI" Name="lab4.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lab4_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="lab4_postroute_physopt.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lab10.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/midterm_proj.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab9.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/midtermPractical.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab8.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab7.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab6.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/lab4.sv">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -55,7 +152,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="lab4"/>
+      <Option Name="TopModule" Val="cntr"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -69,6 +166,7 @@
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/BASYS3/BASYS3.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

@@ -37,6 +37,7 @@ module lab4_structural(
     input [2:0] IN
     );
     wire a,b1,b2,b3,b4;
+    //Full Adder
     //assign LED[0] = ~IN[0]&~IN[1]&IN[2] | ~IN[0]&IN[1]&~IN[2] | IN[0]&~IN[1]&~IN[2] | IN[0]&IN[1]&IN[2];
     xor S1 (a,IN[0],IN[1]);
     xor S2 (LED[0],a,IN[2]);

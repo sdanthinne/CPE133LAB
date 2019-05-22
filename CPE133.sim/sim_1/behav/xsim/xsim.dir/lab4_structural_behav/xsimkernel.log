@@ -1,7 +1,0 @@
-Running: xsim.dir/lab4_structural_behav/xsimk -simmode gui -wdb lab4_structural_behav.wdb -simrunnum 0 -socket 53801
-Design successfully loaded
-Design Loading Memory Usage: 33276 KB (Peak: 33396 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 115976 KB (Peak: 180548 KB)
-Simulation CPU Usage: 40 ms

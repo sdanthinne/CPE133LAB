@@ -6,21 +6,25 @@
 # Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/home/sdanthinne/Programs/Vivado/SDK/2018.3/bin:/home/sdanthinne/Programs/Vivado/Vivado/2018.3/ids_lite/ISE/bin/lin64:/home/sdanthinne/Programs/Vivado/Vivado/2018.3/bin
+  PATH=C:/xilinx/SDK/2018.3/bin;C:/xilinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;C:/xilinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:C:/xilinx/Vivado/2018.3/bin
 else
-  PATH=/home/sdanthinne/Programs/Vivado/SDK/2018.3/bin:/home/sdanthinne/Programs/Vivado/Vivado/2018.3/ids_lite/ISE/bin/lin64:/home/sdanthinne/Programs/Vivado/Vivado/2018.3/bin:$PATH
+  PATH=C:/xilinx/SDK/2018.3/bin;C:/xilinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;C:/xilinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:C:/xilinx/Vivado/2018.3/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/home/sdanthinne/Programs/Vivado/Vivado/2018.3/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=
 else
-  LD_LIBRARY_PATH=/home/sdanthinne/Programs/Vivado/Vivado/2018.3/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/sdanthinne/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1'
+HD_PWD='C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log lab4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab4.tcl
+EAStep vivado -log cntr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cntr.tcl
