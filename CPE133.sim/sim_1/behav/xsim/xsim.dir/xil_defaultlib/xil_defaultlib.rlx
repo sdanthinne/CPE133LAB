@@ -3,5 +3,6 @@
 Dec  7 2018
 00:33:28
 C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab10.sv,1557961992,systemVerilog,,,,cntr;cntrMod;dffcntr,,,,,,,,
-C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/midterm_proj.sv,1557692234,systemVerilog,,,,ALU;DFF;bit_8_RCA;full_add;io,,,,,,,,
+C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab10.sv,1559113224,systemVerilog,,C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab13.sv,,cntr;cntrMod;dffcntr,,,,,,,,
+C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab11.sv,1558764518,systemVerilog,,C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab13.sv,,cntr_new,,,,,,,,
+C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.srcs/sources_1/new/lab13.sv,1559197500,systemVerilog,,,,FSMn1;jkFSM;stateSlow,,,,,,,,

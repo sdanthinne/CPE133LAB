@@ -1,108 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1557961159">
-  <File Type="BITSTR-BMM" Name="cntr_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="cntr_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="cntr_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="cntr_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="cntr.tcl"/>
-  <File Type="OPT-TIMING" Name="cntr_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="cntr_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="cntr_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="cntr_reports.tcl"/>
-  <File Type="OPT-DRC" Name="cntr_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="cntr.hwdef"/>
-  <File Type="PWROPT-DCP" Name="cntr_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="cntr_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="cntr_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="cntr_placed.dcp"/>
-  <File Type="PLACE-IO" Name="cntr_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="cntr_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="cntr_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="cntr_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="cntr_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="cntr_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="cntr_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="cntr.bgn"/>
-  <File Type="PLACE-TIMING" Name="cntr_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="cntr_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="cntr.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="cntr_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="cntr_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="cntr_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="cntr.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="cntr_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="cntr_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="cntr_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="cntr_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="cntr_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="cntr_drc_routed.pb"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1559199137">
+  <File Type="BITSTR-BMM" Name="stateSlow_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="stateSlow_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="stateSlow_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="stateSlow_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="stateSlow.tcl"/>
+  <File Type="OPT-TIMING" Name="stateSlow_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="stateSlow_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="stateSlow_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="stateSlow_reports.tcl"/>
+  <File Type="OPT-DRC" Name="stateSlow_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="stateSlow.hwdef"/>
+  <File Type="PWROPT-DCP" Name="stateSlow_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="stateSlow_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="stateSlow_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="stateSlow_placed.dcp"/>
+  <File Type="PLACE-IO" Name="stateSlow_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="stateSlow_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="stateSlow_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="stateSlow_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="stateSlow_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="stateSlow_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="stateSlow_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="stateSlow.bgn"/>
+  <File Type="PLACE-TIMING" Name="stateSlow_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="stateSlow_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="stateSlow.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="stateSlow_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="stateSlow_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="stateSlow_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="stateSlow.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="stateSlow_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="stateSlow_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="stateSlow_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="stateSlow_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="stateSlow_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="stateSlow_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="cntr.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="cntr_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="cntr.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="cntr_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cntr_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="cntr.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cntr_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="cntr_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="cntr_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="cntr_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="cntr_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="cntr_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="cntr_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="cntr_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="cntr_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="cntr_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="cntr_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="cntr_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cntr_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cntr_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cntr_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cntr_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cntr_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cntr_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cntr_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="cntr.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cntr_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="cntr.rbt"/>
-  <File Type="BITSTR-NKY" Name="cntr.nky"/>
-  <File Type="BG-DRC" Name="cntr.drc"/>
-  <File Type="RDI-RDI" Name="cntr.vdi"/>
+  <File Type="BITSTR-LTX" Name="stateSlow.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="stateSlow_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="stateSlow.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="stateSlow_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="stateSlow_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="stateSlow.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="stateSlow_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="stateSlow_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="stateSlow_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="stateSlow_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="stateSlow_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="stateSlow_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="stateSlow_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="stateSlow_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="stateSlow_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="stateSlow_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="stateSlow_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="stateSlow_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="stateSlow_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="stateSlow_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="stateSlow_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="stateSlow_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="stateSlow_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="stateSlow_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="stateSlow_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="stateSlow.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="stateSlow_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="stateSlow.rbt"/>
+  <File Type="BITSTR-NKY" Name="stateSlow.nky"/>
+  <File Type="BG-DRC" Name="stateSlow.drc"/>
+  <File Type="RDI-RDI" Name="stateSlow.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lab11.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab13.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/lab10.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/midterm_proj.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/lab9.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/midtermPractical.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/lab8.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -118,23 +101,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/lab6.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/lab4.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/lab3.sv">
+    <File Path="$PSRCDIR/sources_1/new/lab12.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -150,9 +117,49 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/lab3.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab4.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab6.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab8.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lab9.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="cntr"/>
+      <Option Name="TopModule" Val="stateSlow"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -177,7 +184,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

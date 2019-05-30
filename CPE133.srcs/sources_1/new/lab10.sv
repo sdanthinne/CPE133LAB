@@ -18,13 +18,15 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-module cntrMod(RST, clk, LD, UP, DIN,count);
-    parameter N=4;
-    input RST,clk,LD,UP;
+module cntrMod(RST, clk,LD, UP, DIN,count);
+    parameter N=26;
+    input RST,LD,UP,clk;
     input [N-1:0] DIN;
     output logic [N-1:0] count;
+    logic nclk;
+    cntr_new c1(clk,nclk);
     
-    always_ff @ (posedge clk)
+    always_ff @ (posedge nclk)
     begin
         if(RST == 1'b1)
         begin
@@ -79,7 +81,7 @@ module JKFF(
         if(clr == 1'b0)
         begin
             case(jk)
-            2'b00:
+            2'b00: 
             begin
             Q=Q;
             Qbar=~Q;
@@ -119,7 +121,7 @@ output [1:0] Q,Qbar;
 //D1 = Q1 xor Q0
 
 DFF b0(Qbar[0],clr,clk);
-DFF b1();
+//DFF b1();
 
 
 module DFF(

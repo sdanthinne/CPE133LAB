@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed May 15 15:59:21 2019
-# Process ID: 7064
+# Start of session at: Wed May 29 23:52:19 2019
+# Process ID: 13256
 # Current directory: C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1
-# Command line: vivado.exe -log cntr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cntr.tcl
-# Log file: C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1/cntr.vds
+# Command line: vivado.exe -log stateSlow.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source stateSlow.tcl
+# Log file: C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1/stateSlow.vds
 # Journal file: C:/Users/Sebastien Danthinne/Documents/Documents/vivadoProjects/CPE133/CPE133.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source cntr.tcl -notrace
+source stateSlow.tcl -notrace
